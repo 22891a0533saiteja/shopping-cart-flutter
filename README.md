@@ -1,16 +1,36 @@
-# demo
+**Installation and Running Instructions for Shopping Cart Flutter App**
 
-A new Flutter project.
+**Prerequisites:**
+1. Install Flutter SDK: [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
+2. Install Android Studio or Visual Studio Code (Recommended for development)
+3. Set up Flutter environment variables
+4. Install Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-## Getting Started
+**Clone the Repository:**
+```sh
+git clone https://github.com/22891a0533saiteja/shopping-cart-flutter.git
+```
 
-This project is a starting point for a Flutter application.
+**Navigate to the Project Directory:**
+```sh
+cd shopping-cart-flutter
+```
 
-A few resources to get you started if this is your first Flutter project:
+**Get Dependencies:**
+```sh
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Run the Application:**
+1. Connect a physical device or start an emulator
+2. Run the following command:
+```sh
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Build APK (Optional):**
+```sh
+flutter build apk
+```
+
+
